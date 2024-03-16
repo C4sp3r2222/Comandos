@@ -1,0 +1,175 @@
+Anonimato:
+-1. Instalar TOR--------------------------------------------------------------------
+-2. Cambiar mi MAC con Macchanger:--------------------------------------------------
+-3. Configurar el archivo de proxychain.--------------------------------------------
+-4. Iniciamos TOR:------------------------------------------------------------------
+-5. CAMBIAR MI IP Y PAIS: Para cambiar de servidor Proxy y de Pais.-----------------
+(Reiniciamos el servidor)
+-6. Ver Ip de un sitio web desde TOR:-----------------------------------------------
+
+
++ Instalar Mi herramienta Tor Ghost : https://github.com/C4sp3r2222/Tor-Ghost
+
+
+
+-1. Instalar TOR:---------------------------------------------------------------------
+(Descargando desde la pagina oficial, descomprimiendo e instalando, o desde consola:)
+
+┌──(nebur㉿kali)-[~]
+└─$sudo apt-get install tor
+
+(Instala TOR - The Onion Router)
+
+
+
+2. Cambiar Mac con macchanger:---------------------------------------------------------
+
+-Para ver mi MAC:
+
+┌──(nebur㉿kali)-[~]
+└─$ macchanger -s eth0
+
+Current MAC:   08:00:27:21:b1:d0 (CADMUS COMPUTER SYSTEMS)
+Permanent MAC: 08:00:27:21:b1:d0 (CADMUS COMPUTER SYSTEMS)
+
+ó
+┌──(nebur㉿kali)-[~]
+└─$ ifconfig                                                                                                                                                                
+
+
+eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 10.0.2.16  netmask 255.255.255.0  broadcast 10.0.2.255
+        inet6 fe80::e033:42ef:bb45:c283  prefixlen 64  scopeid 0x20<link>
+        ether 08:00:27:21:b1:d0 
+              ^               ^   
+            (Ésta es nuestra MAC, la cambiaremos:)
+
+-Listado de direcciones MAC disponibles:
+> sudo macchanger -l 
+    (listado...)
+
+-Para filtrar por un tipo de MAC específica:
+> sudo macchanger -l | grep "NATIONAL SECURITY AGENCY"
+      NSA  - 00:20:91    (Este es el OUI)
+
+-Para cambiar nuestra MAC por la de la NSA:
+> sudo macchanger --mac = 00:20:91:af:19:af
+                     ^      ^ [      ]
+              OIU de la NSA  +  Inventado ( de la a-z y del 1-9)
+-Compruebo:
+> sudo macchanger -s eth0
+   (¡Ha cambiado!)
+
+
+
+-Para nueva MAC aleatoria (desconocida):
+┌──(nebur㉿kali)-[~]
+└─$ sudo macchanger -r eth0                                                                                                                                                 
+[sudo] password for nebur: 
+Current MAC:   08:00:27:21:b1:d0 (CADMUS COMPUTER SYSTEMS)
+Permanent MAC: 08:00:27:21:b1:d0 (CADMUS COMPUTER SYSTEMS)
+New MAC:       f2:1e:6f:e0:b4:79 (unknown)
+               ^     Nueva MAC
+
+-Compruebo si ha cambiado:
+
+┌──(nebur㉿kali)-[~]
+└─$ ifconfig                                                                                                                                                 
+
+eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 10.0.2.16  netmask 255.255.255.0  broadcast 10.0.2.255
+        inet6 fe80::e033:42ef:bb45:c283  prefixlen 64  scopeid 0x20<link>
+        ether f2:1e:6f:e0:b4:79 
+              ^               ^    ¡ Nueva Mac !  
+
+
+
+
+3. Configurar archivo de TOR Proxychains:--------------------------------------
+
+┌──(root㉿kali)-[/home/nebur]
+└─# nano /etc/proxychains4.conf 
+                                                                                                                        
+  -Aqui debemos activar el 'dynamic_chain', y desactivar el  'strict_chain' 
+  -Además abajo del todo pondremos:
+	-----------------------
+	# sockcs 4 solo permite TCP   
+	socks4  127.0.0.1 9050
+	socks5  127.0.0.1 9050       <--- Lo añadimos
+	# Si usamos los sockcs por defecto usara tor
+
+	# Podemos indicar otros PROXYS
+	----------------------
+  -(Guardamos y salimos)
+        
+
+-4. Iniciamos TOR:-------------------------------------------------------------
+
+┌──(root㉿kali)-[/home/nebur]
+└─# service tor start                                                                                                         
+┌──(root㉿kali)-[/home/nebur]
+└─# su nebur                    
+
+- Comprobamos que está corriendo:   (active)    
+                                                                                                                    
+┌──(root㉿kali)-[/home/nebur]
+└─# service tor status                       
+● tor.service - Anonymizing overlay network for TCP (multi-instance-master)
+     Loaded: loaded (/lib/systemd/system/tor.service; disabled; preset: disabled)
+     Active: active (exited) since Sun 2024-03-03 04:59:14 EST; 14s ago
+    Process: 3442 ExecStart=/bin/true (code=exited, status=0/SUCCESS)
+   Main PID: 3442 (code=exited, status=0/SUCCESS)
+        CPU: 917us
+^ (Circulo en verde)
+                                                                                                                        
+┌──(root㉿kali)-[/home/nebur]
+└─# su nebur             
+┌──(nebur㉿kali)-[~]
+└─$ proxychains firefox
+
+(Inicia Firefox, desde cual es mi IP, podemos ver que nos marca otra IP y Ubicación)
+Cual es mi IP ¿?¿?   Dinamarca  10.22.33.44  
+
+         *** ¡ Anonimato conseguido ! ***
+
+(Cuidado con algunos nodos.. pertenecen a blackhacks o a USA.)
+
+
+
+
+
+
+-5. CAMBIAR MI IP Y PAIS: Para cambiar de servidor Proxy y de Pais.---------------------------
+-Reiniciamos el servidor:
+
+┌──(nebur㉿kali)-[~]
+└─$ sudo service tor restart
+
+
+Si actualizamos el navegador de cual es mi IP, veremos que ahora la direccion es otra.
+
+-Cerrar TOR:
+con CNTRL  +  C  se detiene TOR.
+
+┌──(nebur㉿kali)-[~]
+└─$ service tor stop   
+
+(Contraseña:  kali )   Por defecto.
+
+
+
+-6. Ver Ip de un sitio web desde TOR:------------------------------------------------
+(De esta manera no permitimos fugas de información mediante las consultas DNS)
+
+┌──(nebur㉿kali)-[~]
+└─$ tor-resolve kinder.es
+54.229.192.145
+
+
+-Para lanzar escaneos o peticiones con NMAP o CURL, usar antes la palabra proxychains
+
+ ┌──(nebur㉿kali)-[~]
+└─$ proxychains nmap -p80,8080,443 217.160.0.117 
+     ^           curl...
+                 ...
+
