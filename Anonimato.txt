@@ -6,7 +6,8 @@ Anonimato:
 -5. CAMBIAR MI IP Y PAIS: Para cambiar de servidor Proxy y de Pais.-----------------
 (Reiniciamos el servidor)
 -6. Ver Ip de un sitio web desde TOR:-----------------------------------------------
-
+-7. Correo Seguro Protonmail.-------------------------------------------------------
+-8. Texto a Código morse------------------------------------------------------------
 
 + Instalar Mi herramienta Tor Ghost : https://github.com/C4sp3r2222/Tor-Ghost
 
@@ -53,7 +54,7 @@ eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
       NSA  - 00:20:91    (Este es el OUI)
 
 -Para cambiar nuestra MAC por la de la NSA:
-> sudo macchanger --mac = 00:20:91:af:19:af
+> sudo macchanger eth0 --mac 00:20:91:af:19:af
                      ^      ^ [      ]
               OIU de la NSA  +  Inventado ( de la a-z y del 1-9)
 -Compruebo:
@@ -96,7 +97,7 @@ eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
 	# sockcs 4 solo permite TCP   
 	socks4  127.0.0.1 9050
 	socks5  127.0.0.1 9050       <--- Lo añadimos
-	# Si usamos los sockcs por defecto usara tor
+	# Si usamos los socks por defecto usara tor
 
 	# Podemos indicar otros PROXYS
 	----------------------
@@ -173,3 +174,17 @@ con CNTRL  +  C  se detiene TOR.
      ^           curl...
                  ...
 
+-Instalar Navegador TOR: -----------------------------------------------------------------
+
+> sudo apt install -y tor torbrowser-launcher
+
+Se abre una barra de instalación y damos check en abrir automaricamente y Conect.
+
+
+-7. Correo Seguro Protonmail.-------------------------------------------------------
+
+-Debemos crear la cuenta, desde el navegador tor, para que al crearla no se nos asocie nuestra IP, o usar un VPN. Además no debemso poner emails de recuperación que nos lleve a nosotros.
+
+
+-8. Texto a Código morse------------------------------------------------------------
+https://sacodejuegos.com/politica-de-cookies
