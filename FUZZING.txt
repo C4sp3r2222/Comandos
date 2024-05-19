@@ -1,190 +1,140 @@
-Anonimato:
--1. Instalar TOR--------------------------------------------------------------------
--2. Cambiar mi MAC con Macchanger:--------------------------------------------------
--3. Configurar el archivo de proxychain.--------------------------------------------
--4. Iniciamos TOR:------------------------------------------------------------------
--5. CAMBIAR MI IP Y PAIS: Para cambiar de servidor Proxy y de Pais.-----------------
-(Reiniciamos el servidor)
--6. Ver Ip de un sitio web desde TOR:-----------------------------------------------
--7. Correo Seguro Protonmail.-------------------------------------------------------
--8. Texto a Código morse------------------------------------------------------------
+FUZZING:
 
-+ Instalar Mi herramienta Tor Ghost : https://github.com/C4sp3r2222/Tor-Ghost
-
-
-
--1. Instalar TOR:---------------------------------------------------------------------
-(Descargando desde la pagina oficial, descomprimiendo e instalando, o desde consola:)
-
-┌──(nebur㉿kali)-[~]
-└─$sudo apt-get install tor
-
-(Instala TOR - The Onion Router)
+1. Wfuzz---------------------------------------------------------------------------------------------
+  1.2. Detectar VIRTUAL HOSTING con Wfuzz:-----------------------------------------------------------
+  1.3 DOBLE ZUZZING:---------------------------------------------------------------------------------
+2. Wpseku--------------------------------------------------------------------------------------------
+3. Nmap  (diccionario http-enum: /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt  )-----
+4. dirb----------------------------------------------------------------------------------------------
+5. Gobuster------------------------------------------------------------------------------------------
+6. Dirsearch-----------------------------------------------------------------------------------------
+7. wafw00f -> Comprobar si existe algun WAFF---------------------------------------------------------
 
 
 
-2. Cambiar Mac con macchanger:---------------------------------------------------------
+1. WFUZZ:--------------------------------------------------------------------------------------------
 
--Para ver mi MAC:
+> wfuzz -c -t 400 --hc=404 -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt http://10.10.10.10/FUZZ
 
-┌──(nebur㉿kali)-[~]
-└─$ macchanger -s eth0
+(Escaneo de diccionario)... Da algunas rutas, hay otros diccionarios mas completos..
+Parámetros:
+> wfuzz -L     (Para que no aparezcan los 301 redirect)
 
-Current MAC:   08:00:27:21:b1:d0 (CADMUS COMPUTER SYSTEMS)
-Permanent MAC: 08:00:27:21:b1:d0 (CADMUS COMPUTER SYSTEMS)
-
-ó
-┌──(nebur㉿kali)-[~]
-└─$ ifconfig                                                                                                                                                                
-
-
-eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
-        inet 10.0.2.16  netmask 255.255.255.0  broadcast 10.0.2.255
-        inet6 fe80::e033:42ef:bb45:c283  prefixlen 64  scopeid 0x20<link>
-        ether 08:00:27:21:b1:d0 
-              ^               ^   
-            (Ésta es nuestra MAC, la cambiaremos:)
-
--Listado de direcciones MAC disponibles:
-> sudo macchanger -l 
-    (listado...)
-
--Para filtrar por un tipo de MAC específica:
-> sudo macchanger -l | grep "NATIONAL SECURITY AGENCY"
-      NSA  - 00:20:91    (Este es el OUI)
-
--Para cambiar nuestra MAC por la de la NSA:
-> sudo macchanger eth0 --mac 00:20:91:af:19:af
-                     ^      ^ [      ]
-              OIU de la NSA  +  Inventado ( de la a-z y del 1-9)
--Compruebo:
-> sudo macchanger -s eth0
-   (¡Ha cambiado!)
+        --sc=200    (Muestra los estados de codigo 200)
+        --sh=2386   (Filtra por numero de caracteres)
+        --hl=170    (Oculta las consultas de 170 lineas)
+        --hc=404    (Oculta los codigos de estado 404)
+        --hh=123    (Oculta los que tengan estos caracteres)
+       ...
+(Hay mas consultar manual...)
 
 
+1.2. Detectar VIRTUAL HOSTING con Wfuzz:---------------------------------------------------------------
 
--Para nueva MAC aleatoria (desconocida):
-┌──(nebur㉿kali)-[~]
-└─$ sudo macchanger -r eth0                                                                                                                                                 
-[sudo] password for nebur: 
-Current MAC:   08:00:27:21:b1:d0 (CADMUS COMPUTER SYSTEMS)
-Permanent MAC: 08:00:27:21:b1:d0 (CADMUS COMPUTER SYSTEMS)
-New MAC:       f2:1e:6f:e0:b4:79 (unknown)
-               ^     Nueva MAC
+> wfuzz -c -t 400 --hc=404 -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -u https://web.com -H "Host:FUZZ.web.com"
+                                                                                            ^                  ^   ^     ^ 
+Devuelve:  'store'   Por tanto existe-->  'store.web.com'  ; Debemos incluirlo en el archivo  /etc/hosts  :
+> nano etc/hosts
+[10.10.11.11   web.com store.web.com]   ( Le indicamos que la URL redirecciona a ambos dominios)
+-Por tanto ahora si vamos a GOOGLE:  https://store.web.com     -> Nos lleva correctamente.
 
--Compruebo si ha cambiado:
+1.3 DOBLE ZUZZING:-----------------------------------------------------------------------------------
+-Aplicar fuzzing de direcctorios, añadiendo posibles extensiones..:
+-Crearemos un diccionario con las extensiones a fuzzear:
+    > nano extensiones.txt
+           ------------
+           txt
+           php
+           html
+           ------------
+-Fuzzing doble:
+> wfuzz -c -L -t 400 --hc=404 -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -w extensiones.txt https://web.com/FUZZ/FUZ2Z 
+                                                                                               ^    ^                             ^      ^    (Z  2  Z)
+ 
 
-┌──(nebur㉿kali)-[~]
-└─$ ifconfig                                                                                                                                                 
+2. WPseku:-------------------------------------------------------------------------------------------
+(Herramienta github)
 
-eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
-        inet 10.0.2.16  netmask 255.255.255.0  broadcast 10.0.2.255
-        inet6 fe80::e033:42ef:bb45:c283  prefixlen 64  scopeid 0x20<link>
-        ether f2:1e:6f:e0:b4:79 
-              ^               ^    ¡ Nueva Mac !  
+-Escaneo genérico:
+> python3 wpsuku.py -u http://web.com --verbose
+
+-Login Brute Force:
+> python3 wpseku.py --url http://web.com --brute --user admin --wordlist diccionario.txt --verbose
+
+-Escaneo de temas, plugins y codigo:
+> pyrhon3 wpseku.py --scan <dir/file> --verbose
 
 
 
+3. Nmap  ----------------------------------------------------------------------------------------------
+(diccionario http-enum: /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt  )---------------
 
-3. Configurar archivo de TOR Proxychains:--------------------------------------
-
-┌──(root㉿kali)-[/home/nebur]
-└─# nano /etc/proxychains4.conf 
-                                                                                                                        
-  -Aqui debemos activar el 'dynamic_chain', y desactivar el  'strict_chain' 
-  -Además abajo del todo pondremos:
-	-----------------------
-	# sockcs 4 solo permite TCP   
-	socks4  127.0.0.1 9050
-	socks5  127.0.0.1 9050       <--- Lo añadimos
-	# Si usamos los socks por defecto usara tor
-
-	# Podemos indicar otros PROXYS
-	----------------------
-  -(Guardamos y salimos)
-        
-
--4. Iniciamos TOR:-------------------------------------------------------------
-
-┌──(root㉿kali)-[/home/nebur]
-└─# service tor start                                                                                                         
-┌──(root㉿kali)-[/home/nebur]
-└─# su nebur                    
-
-- Comprobamos que está corriendo:   (active)    
-                                                                                                                    
-┌──(root㉿kali)-[/home/nebur]
-└─# service tor status                       
-● tor.service - Anonymizing overlay network for TCP (multi-instance-master)
-     Loaded: loaded (/lib/systemd/system/tor.service; disabled; preset: disabled)
-     Active: active (exited) since Sun 2024-03-03 04:59:14 EST; 14s ago
-    Process: 3442 ExecStart=/bin/true (code=exited, status=0/SUCCESS)
-   Main PID: 3442 (code=exited, status=0/SUCCESS)
-        CPU: 917us
-^ (Circulo en verde)
-                                                                                                                        
-┌──(root㉿kali)-[/home/nebur]
-└─# su nebur             
-┌──(nebur㉿kali)-[~]
-└─$ proxychains firefox
-
-(Inicia Firefox, desde cual es mi IP, podemos ver que nos marca otra IP y Ubicación)
-Cual es mi IP ¿?¿?   Dinamarca  10.22.33.44  
-
-         *** ¡ Anonimato conseguido ! ***
-
-(Cuidado con algunos nodos.. pertenecen a blackhacks o a USA.)
+> nmap -p443 10.10.10.10 --script http-enum -oN webScan
+         ^
+       -p22,80...
+(Aplica fuzzing con el diccionario indicado arriba)
 
 
+4. dirb----------------------------------------------------------------------------------------------
+> dirb
+
+-Ruta en:  /usr/share/wordlists/dirb
+
+-Escaneo:
+> dirb http://10.10.10.10       (Usa el diccionario de serie common.txt, muy sencillo, pero podemos indicar otros..):
+
+-Escaneo con otros diccionarios:
+> dirb http://10.10.10.10 -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
 
 
+5. Gobuster------------------------------------------------------------------------------------------
+-Información de enumeracion de direcctorios:
+> gubuster dir --help
+
+-Enumerar directorios:
+> gobuster dir -u https://victima.com -w /usr/share/wordlists/dirb/common.txt        (Podemos usar otros diccionarios)
+    /.htaccess                                                  " /big.txt
+    /.htpasswd                                             " /dirbuster/directory-list-2.3-medium.txt
+     ...
+
+> gobuster dir -t 100 -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt --url http://10.10.10.10
 
 
--5. CAMBIAR MI IP Y PAIS: Para cambiar de servidor Proxy y de Pais.---------------------------
--Reiniciamos el servidor:
+-Añadir  /  al final del fuzzing:
+> gobuster dir -u https://victima.com -w /usr/share/wordlists/dirb/common.txt -f     (con -f se añade /, podemos ver otros codigos de estado..:)
+    /.htaccess/
+    /.htpasswd/
+     ... 
 
-┌──(nebur㉿kali)-[~]
-└─$ sudo service tor restart
+-Escaneo con filtro:
+> gobuster dir -u http://10.10.10.10/ -t 100 -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt --no-error -x js,html,php,txt -o info_gobuster.txt
+                ^                   ^                                                                            ^       ^    ^             ^        ^
 
+-Buscar subdominios:
+Utilizaremos diccionario del SecLists:    https://github.com/danielmiessler/SecLists/blob/master/Discovery/DNS/namelist.txt   (Podemos usar otros diccionarios..)
 
-Si actualizamos el navegador de cual es mi IP, veremos que ahora la direccion es otra.
-
--Cerrar TOR:
-con CNTRL  +  C  se detiene TOR.
-
-┌──(nebur㉿kali)-[~]
-└─$ service tor stop   
-
-(Contraseña:  kali )   Por defecto.
-
+> gobuster dns -d victima.com -w namelist.txt
+ (Si encuentra alguno lo mostrara como FIND)
 
 
--6. Ver Ip de un sitio web desde TOR:------------------------------------------------
-(De esta manera no permitimos fugas de información mediante las consultas DNS)
-
-┌──(nebur㉿kali)-[~]
-└─$ tor-resolve kinder.es
-54.229.192.145
+           
 
 
--Para lanzar escaneos o peticiones con NMAP o CURL, usar antes la palabra proxychains
+6. Dirsearch-----------------------------------------------------------------------------------------
+(Herramienta de python Github)
 
- ┌──(nebur㉿kali)-[~]
-└─$ proxychains nmap -p80,8080,443 217.160.0.117 
-     ^           curl...
-                 ...
+> cd /opt/dirsearch
+> ./dirsearch.py -u http://10.10.10.10 -e -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
+    Ctrl+c (Pausa)  c (reanuda)  e (Finaliza)
 
--Instalar Navegador TOR: -----------------------------------------------------------------
-
-> sudo apt install -y tor torbrowser-launcher
-
-Se abre una barra de instalación y damos check en abrir automaricamente y Conect.
-
-
--7. Correo Seguro Protonmail.-------------------------------------------------------
-
--Debemos crear la cuenta, desde el navegador tor, para que al crearla no se nos asocie nuestra IP, o usar un VPN. Además no debemso poner emails de recuperación que nos lleve a nosotros.
+-Escaneo 2:
+> ./dirsearch.py -url http://10.10.10.10/ -t 50 -x 404 -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -e php,js,html,txt -o info_dirsearch.txt 
+                                        ^   ^     ^      ^                                                              ^                  ^
+-Escaneo 3:
+> python3 dirsearch.py -u http://10.10.10.10 -e php 
 
 
+7. wafw00f -> Comprobar si existe algun WAFF---------------------------------------------------------------
+> wafw00f https://dominio.com
 -8. Texto a Código morse------------------------------------------------------------
 https://sacodejuegos.com/politica-de-cookies
