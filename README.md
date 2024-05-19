@@ -25,9 +25,15 @@ Indice:
 Indice:
 
 -1. Instalar TOR--------------------------------------------
+
 -2. Cambiar mi MAC con Macchanger:--------------------------
+
 -3. Configurar el archivo de proxychain.--------------------
+
 -4. Iniciamos TOR:------------------------------------------
+
 -5. CAMBIAR MI IP Y PAIS: Para cambiar de servidor Proxy y de Pais.------
+
 (Reiniciamos el servidor)
+
 -6. Ver Ip de un sitio web desde TOR:-----------------------
