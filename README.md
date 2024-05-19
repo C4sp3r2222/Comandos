@@ -30,6 +30,9 @@ Indice:
 24. DDoS  Ataque de Denegación de servicio -----------
 25. DDoS Herramienta overload de github --------------
 
+
+
+
 Anonimato:
 -1. Instalar TOR--------------------------------------------------------------------
 
